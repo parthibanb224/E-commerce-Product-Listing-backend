@@ -12,7 +12,6 @@ APP_SERVER.use('/reset', require('./controllers/reset.controller'));
 APP_SERVER.use('/updateUser', require('./controllers/UpdateUser.controller'));
 APP_SERVER.use('/image', require('./controllers/image.controller'));
 APP_SERVER.use('/Books', require('./controllers/Book.controller'));
-APP_SERVER.use('/response',require('./Controllers/message.controller'));
 
 
 APP_SERVER.use(express.static('public'));
